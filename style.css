@@ -107,7 +107,7 @@ padding: 0 20px;
 
 #showcase p{
   font-size: 20px;
-  max-width: 700px;
+  max-width: 600px;
   line-height: 1.2;
   color: #fff;
   padding:10px;
@@ -132,7 +132,17 @@ padding: 0 20px;
   padding:20px;
   background:#2EAFA4;
   color:#fff;
-  text-align:center;
+  
+}
+
+#section-a p{
+  font-size: 20px;
+  text-align: center;
+  line-height: 1.2;
+  color: #fff;
+  padding: 0px 200px;
+  
+ 
 }
 
 #section-b .intro{
@@ -142,13 +152,14 @@ padding: 0 20px;
 #section-b h4{
   font-size: 36pt;
   text-align: center;
+  color: #fff;
   padding: 24px;
 }
 
 #section-b .gallery {
   display: flex;
   flex-direction: row;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   gap: 40px;
   max-width: 1400px;
@@ -162,7 +173,14 @@ padding: 0 20px;
   height: 300px;
   object-fit: cover;
   border-radius: 10px;
+  filter: hue-rotate(150deg) brightness(80%) saturate(50%);
 }
+ #section-b .gallery .profile:hover {
+  transform: scale(1.05);
+  filter: hue-rotate(0deg) brightness(100%) saturate(100%);
+  
+}
+
 
 h3 {
   font-size: 24pt;
@@ -188,11 +206,13 @@ h3 {
   background:#fff;
 }
 
+
+
 #section-d p{
   max-width: 1100pt;
   text-align: center;
   display: block;
-  padding: 30px;
+  padding: 20px 100px;
   color: white;
 }
 
@@ -219,29 +239,41 @@ fieldset:last-of-type {
 label {
   display: block;
   margin: 0.5rem 0;
-  color: black;
+  color: white;
 }
 
 input, textarea, select {
-  margin: 10px 0 0 0;
   width: 100%;
-  min-height: 2em;
+  height: 40px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 16px;
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+  color: #333;
  }
 
 input[type="submit"] {
   display: block;
-  width: 20%;
+  width: 30%;
   margin: 1em auto;
-  height: 2em;
+  height: 3em;
   font-size: 1.1rem;
-  color: #fff;
   background-color: #2EAFA4;
-  border-color: white;
+  color: white;
   min-width: 150px;
+  border-radius: 20px;
+  box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
+
 }
 
+
+
+
 footer {
-  color: white;
+  background: white;
+  color: #2EAFA4;
   height: 100 px;
   line-height: 25px;
   font-size: 14pt;
