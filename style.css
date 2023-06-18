@@ -126,6 +126,7 @@ padding: 0 20px;
 #showcase .button:hover{
   background:#2EAFA4;
   color:;
+  opacity: 70%;
 }
 
 #section-a{
@@ -271,15 +272,17 @@ input[type="submit"] {
   margin: 1em auto;
   height: 3em;
   font-size: 1.1rem;
-  background-color: #2EAFA4;
   color: white;
   min-width: 150px;
   border-radius: 20px;
   box-shadow: 5px 10px 5px 0px rgba(0, 0, 0, 0.5);
-
 }
 
-
+#showcase .submit:hover{
+  background:#2EAFA4;
+  color:;
+  opacity: 70%;
+}
 
 
 footer {
